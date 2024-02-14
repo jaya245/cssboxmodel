@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+body{    
+margin: 0;
+box-sizing: border-box;
+font-family:  "Rubik", sans-serif;
+font-weight: 300;
+}
+
+.container{
+    width:780px;
+    margin:10px auto;
+    background:orangered;
+    color: white;
+     border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+.inner_div_one{
+  padding:5px 10px;
+}
+.div-img{
+    width:100%;
+    height:200px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+li{
+    padding-top: 10px;
+}
+
+.inner_div_two{
+    padding:5px 10px;
+  }
+  .box-img{
+    padding:10px;
+    width:40%;
+  }
+
+  .inner_div_three{
+    padding:5px 10px;
+  }
+ 
+  .card_btn{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    color: rgb(159, 153, 153);
+    margin-right: 30px;
+    padding: 10px 20px;
+    border: none;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(195, 187, 187);
+    
+  }
+
+  .card1div{
+    width:300px;
+    text-align: center;
+    background-color: white;
+    margin: 30px auto;
+    padding: 50px;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+  }
+  .subtext{
+    font-size: 12px;
+    margin-bottom: 30px;
+    color: rgb(135, 127, 127);
+    font-weight: 500;
+  }
+  .head1_txt{
+    font-weight: 500;
+    margin:10px 0 0 0;
+    
+  }
+  .hand_emoji{
+    font-size: 50px;
+    margin: 0;
+  }
+  .card1_btn{
+    border:none;
+    width:100%;
+    padding:14px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background-color: white;
+    text-align: left;
+  }
+
+  .card1_btn:hover{
+    background-color:rgb(244, 240, 240);
+  }
+  .arrowicon{
+    float:right
+  }
+
+  .card2div{
+    width:300px;
+    text-align: center;
+    background-color: white;
+    margin: 100px auto;
+    padding: 50px;
+    border-radius: 15px;
+    border:1px solid lightgray;
+
+  }
+  .card2img{
+    width:80%;
+  }
+  .card2div p{
+    color: rgb(167, 166, 166);
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  .emailtxt{
+    color: black;
+    font-weight: 500;
+  }
+  .inputcode{
+    width:100%;
+    text-align: center;
+    border-radius: 15px;
+    padding:16px;
+    border: 2px solid rgb(212, 165, 239);
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-weight: 550;
+    
+  }
+
+  .inputcode:focus{
+    outline: none;
+    border: 2px solid rgb(158, 82, 202);
+  }
+  .card2btn{
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    padding:16px;
+    margin-bottom: 30px;
+    background-color: rgb(75, 75, 241);
+    color:white;
+  }
+
+  .card3div{
+    width:280px;
+    text-align: center;
+    background-color: white;
+    margin: 100px auto;
+    padding: 40px;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+  }
+  .subtext3{
+    font-size: 14px;
+    margin-bottom: 30px;
+    color: rgb(135, 127, 127);
+    font-weight: 400;
+  }
+
+  .card3_btn{
+    border:none;
+    width:100%;
+    padding:14px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background-color: white;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 550;
+    color: rgb(62, 59, 59);
+  }
+
+  .card3_btn:hover{
+    background-color:rgb(244, 240, 240);
+  }
+
+  .rightarrow{
+    width:12px;
+  }
+
+  .backbtn1{
+   float:right;
+   border: none;
+   width: 15%;
+   padding:5px;
+    background-color: rgb(54, 153, 234);
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+
+  .backbtn2{
+    border: none;
+    display: inline-block;
+    width: 20%;
+    margin-top: 15px;
+    padding:10px;
+     background-color: rgb(75, 75, 241);
+     color: white;
+     border-radius: 10px;
+     text-decoration: none;
+     font-size: 13px;
+     font-weight: 400;
+   }
+
+   .backbtn3{
+    float:right;
+    border: none;
+    width: 15%;
+    padding:5px;
+     background-color: rgb(41, 40, 40);
+     color: white;
+     border-radius: 10px;
+     text-decoration: none;
+   }
+
+   .creditcardimg{
+    width:15%;
+
+   }
+
+   .card4inputcode{
+    width:100%;
+    text-align: left;
+    border-radius: 15px;
+    padding:16px 16px 16px 45px;
+    border: 2px solid rgb(212, 165, 239);
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-weight: 550;
+    background-color: white;
+    background-image: url('cc.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    caret-color: rgb(158, 82, 202);
+    
+   }
+   .card4inputcode::placeholder{
+    color: lightgray;
+   }
+   .card4inputcode:focus{
+    outline: none;
+    border: 2px solid rgb(158, 82, 202);
+  }
+   .lockimg{
+    width:6%;
+    vertical-align: bottom;
+   }
+   .card4div{
+    width:280px;
+    text-align: center;
+    background-color: white;
+    margin: 100px auto;
+    padding: 50px;
+    border-radius: 15px;
+    border:1px solid lightgray;
+
+  }
+  .card4div p{
+    display: inline-block;
+    justify-content: center;
+    vertical-align: middle;
+    color: rgb(122, 116, 116);
+    font-weight: 400;
+    font-size: 15px;
+  }
+  .securetxt{
+    display: inline-block;
+    color: rgb(122, 116, 116);
+    font-weight: 400;
+    font-size: 15px;
+  }
+  .backbtn4{
+    border: none;
+    display: inline-block;
+    width: 20%;
+    margin-top: 15px;
+    padding:10px;
+     background-color: rgb(75, 75, 241);
+     color: white;
+     border-radius: 10px;
+     text-decoration: none;
+     font-size: 13px;
+     font-weight: 400;
+   }
+
+   .card5div{
+    width:280px;
+    text-align: center;
+    background-color: white;
+    margin: 100px auto;
+    padding: 50px;
+    border-radius: 15px;
+    border:1px solid lightgray;
+
+  }
+  .companybuildingemoji{
+    text-align: center;
+    font-size: 25px;
+  }
+  .card5div p{
+    display: inline-block;
+    justify-content: center;
+    vertical-align: middle;
+    color: rgb(122, 116, 116);
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+
+  .card5inputcode{
+    width:100%;
+    text-align: left;
+    border-radius: 12px;
+    padding:10px;
+    border: 2px solid rgb(212, 165, 239);
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-weight: 550;
+  }
+  .card5inputdiv{
+    text-align: left;
+  }
+
+  .card5inputcode:focus{
+    outline: none;
+    border: 2px solid rgb(158, 82, 202);
+  }
+  .companylabel{
+    display: inline-block;
+    padding-left: 5px;
+    margin-bottom: 8px;
+    font-size: 10px;
+    color:rgb(158, 82, 202) ;
+    font-weight: 500;
+  }
+  .industrylabel, .rolelabel ,.companysizelabel{
+    display: inline-block;
+    padding-left: 5px;
+    margin-bottom: 8px;
+    font-size: 10px;
+    color:rgb(179, 174, 174);
+    font-weight: 500;
+  }
+  .selectinput{
+    width:100%;
+    padding:10px;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    font-weight: 500;
+  }
